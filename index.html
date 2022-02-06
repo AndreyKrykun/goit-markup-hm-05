@@ -326,6 +326,35 @@
                 <use href="./images2/icons.sprite.svg#icon-close-button"></use>
                 </svg>
             </button>
+            <form class="form personal-data">
+                <h2 class="personal-data-titel">Оставьте свои данные, мы вам перезвоним</h1>
+                <div class="form-field">
+                    <label for="name">Имя</label> 
+                    <input type="text" name="name" id="name" />
+                </div>
+
+                <div class="form-field">
+                    <label for="tel">Телефон</label>
+                    <input type="tel" name="tel" id="tel" />
+                </div>
+
+                <div class="form-field">
+                    <label for="mail">Почта</label>
+                    <input type="email" name="mail" id="mail" />
+                </div>
+
+                <div class="form-field">
+                    <label for="comment">Комментарий</label>
+                    <textarea class="comment" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <label class="agreement" for="agreement">Соглашаюсь с рассылкой и принимаю<a href="" class="agreement-link">Условия договора</a></label>
+                </div>
+
+                <button class="submit-button" type="submit">Отправить</button>
+            </form>
         </div>
     </div>
     <script>
